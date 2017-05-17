@@ -1,0 +1,4 @@
+openvpn --config vpngate_vpn260099426.opengw.net_udp_1588.ovpn &
+sleep 5
+ip route del default via 192.168.2.2 dev eth0
+

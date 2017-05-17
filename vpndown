@@ -1,0 +1,4 @@
+killall openvpn
+sleep 2
+ip route add default via 192.168.2.2 dev eth0
+
